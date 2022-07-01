@@ -1,11 +1,46 @@
-.DS_Store
-examples/ihdp_sim/data/naive*
-examples/ihdp_sim/data/bart*
-examples/ihdp_sim/data/grouped*
-examples/ihdp_sim/data/indep*
-examples/ihdp_sim/data/compFits.RData
-*.swp
+# History files
+.Rhistory
 .Rapp.history
-src/*.o
-src/*.so
-examples/toy/*.pdf
+
+# Session Data files
+.RData
+
+# User-specific files
+.Ruserdata
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# R Environment Variables
+.Renviron
+
+# ignore compiled objects
+*.o
+*.so
+*.dll
+.DS_Store
+.Rproj.user
